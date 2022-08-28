@@ -1,0 +1,10 @@
+[Unit]
+Description=msur services
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/msur-services
+
+[Install]
+WantedBy=multi-user.target
