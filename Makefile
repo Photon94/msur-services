@@ -1,3 +1,3 @@
 
 build:
-	pyinstaller main.py --onefile
+	pyinstaller msur-services.py --onefile
